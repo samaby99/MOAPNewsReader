@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:defaultValue="@string/settings_data_URL_default"
+        android:key="data_URL"
+        android:title="Active RSS URL"/>
+    <CheckBoxPreference
+        android:defaultValue="@bool/settings_show_images_default"
+        android:key="show_images"
+        android:title="Show images"/>
+    <CheckBoxPreference
+        android:defaultValue="@bool/settings_download_images_default"
+        android:key="download_images"
+        android:title="Download images in the background"/>
+</PreferenceScreen>
